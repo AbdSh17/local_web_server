@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<html lang="ar" dir="rtl">
+
+<head>
+     <meta charset="UTF-8" />
+    <title>المواد الداعمه </title>
+
+    <link rel="stylesheet" href="./supporting_material_en.css" />
+
+</head>
+
+<body>
+    <div class="all">
+        <h1>طلب المواد الداعمه</h1>
+        <form target="_blank" action="/your-server-side-handler" method="POST">
+        <form action="/" method="POST">
+
+            <h5>ملاحظه هامه* (اذا كان العنوان المدخل بالعربيه ستظهر النتيجه بالعربيه واذا كان العنوان المدخل بالانجليزيه ستظهر النتيجه بالانجليزيه)</h5>
+            <label>قم بادخال العنوان </label>
+            <input type="text" id="name" name="name" required>
+                <div>
+                <label for="type">اختار نوع البحث :</label>
+                <select id="type" name="type">
+                    <option id="image">صورة</option>
+                    <option id="video">فيديو</option>
+                </select>
+                </div>
+                    <div>
+                    <button type="submit">تأكيد</button>
+                </div>
+        </form>
+
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Supporting Material</title>
+    <link rel="stylesheet" href="./supporting_material_en.css" />
+</head>
+
+<body>
+    <div class="all">
+
+        <h1>Request Supporting Material</h1>
+        <form target="_blank" action="/your-server-side-handler" method="POST">
+            <h5>Important Note * if the entered address is in Arabic ,the result will appear in Arabic.
+            and if the address entered is in English , the result will apear in English.</h5>
+            <label>Enter topic</label>
+            <input type="text" id="name" name="name" required>
+            <div>
+                <label for="type">Select type:</label>
+                <select id="type" name="type">
+                    <option value="Image">Image</option>
+                    <option value="Video">Video</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
